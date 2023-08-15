@@ -9,7 +9,7 @@ jobs:
         fetch-depth: 1
     - name: call the other repo
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         EVENT: my_event
         ORG: manoj-personal
         REPO: repoA
