@@ -1,4 +1,4 @@
-name: Build Artifacts
+name: on_push_B
 on: [push]
 jobs:
   build:
